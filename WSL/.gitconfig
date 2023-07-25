@@ -1,0 +1,17 @@
+[user]
+	name = na2na-p
+	email = na2na@na2na.dev
+	signingkey = 8819B0371B4EE722643221ADC2038CA8B2D047B3
+[gpg]
+	program = /usr/bin/gpg
+[commit]
+	gpgsign = true
+[core]
+	editor = vim
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[pull]
+	rebase = true
