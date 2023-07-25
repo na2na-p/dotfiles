@@ -47,7 +47,7 @@ jobs:
 
   arch:
     runs-on: ubuntu-latest
-    container: archlinux/base:latest
+    container: archlinux:base
     strategy:
       matrix:
         install_script: ['WSL/.bin/install.sh', 'shared/.bin/install.sh']
