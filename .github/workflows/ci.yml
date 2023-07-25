@@ -25,10 +25,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Install required packages
-        run: |
-          yum install -y yum-utils
-          yum-config-manager --set-disabled appstream
-          yum install -y git sudo
+        run: yum install -y git sudo
       - name: Install dotfiles
         run: ${{ matrix.install_script }} install
 
