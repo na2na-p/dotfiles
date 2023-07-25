@@ -8,9 +8,9 @@ jobs:
     container: ubuntu:latest
     strategy:
       matrix:
-        install_script: ['WSL/.bin/install.sh', 'shared/.bin/install.sh']
+        install_script: ['./WSL/.bin/install.sh', './shared/.bin/install.sh']
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       - name: Install required packages
         run: apt-get update && apt-get install -y git sudo
       - name: Install dotfiles
@@ -21,9 +21,9 @@ jobs:
     container: centos:latest
     strategy:
       matrix:
-        install_script: ['WSL/.bin/install.sh', 'shared/.bin/install.sh']
+        install_script: ['./WSL/.bin/install.sh', './shared/.bin/install.sh']
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       - name: Install required packages
         run: yum install -y git sudo
       - name: Install dotfiles
@@ -34,9 +34,9 @@ jobs:
     container: alpine:latest
     strategy:
       matrix:
-        install_script: ['WSL/.bin/install.sh', 'shared/.bin/install.sh']
+        install_script: ['./WSL/.bin/install.sh', './shared/.bin/install.sh']
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       - name: Install required packages
         run: apk add git sudo bash
       - name: Install dotfiles
@@ -47,9 +47,9 @@ jobs:
     container: archlinux/base:latest
     strategy:
       matrix:
-        install_script: ['WSL/.bin/install.sh', 'shared/.bin/install.sh']
+        install_script: ['./WSL/.bin/install.sh', './shared/.bin/install.sh']
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       - name: Update packages
         run: pacman -Syu --noconfirm
       - name: Install required packages
@@ -61,7 +61,7 @@ jobs:
     runs-on: ubuntu-latest
     container: ubuntu:latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       - name: Update packages
         run: apt-get update
       - name: Install packages for install repository
