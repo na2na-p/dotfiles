@@ -8,7 +8,7 @@ jobs:
     container: ubuntu:latest
     strategy:
       matrix:
-        install_script: ['./WSL/.bin/install.sh', './shared/.bin/install.sh']
+        install_script: ['WSL/.bin/install.sh', 'shared/.bin/install.sh']
     steps:
       - uses: actions/checkout@v3
       - name: Install required packages
@@ -21,7 +21,7 @@ jobs:
     container: centos:latest
     strategy:
       matrix:
-        install_script: ['./WSL/.bin/install.sh', './shared/.bin/install.sh']
+        install_script: ['WSL/.bin/install.sh', 'shared/.bin/install.sh']
     steps:
       - uses: actions/checkout@v3
       - name: Install required packages
@@ -34,7 +34,7 @@ jobs:
     container: alpine:latest
     strategy:
       matrix:
-        install_script: ['./WSL/.bin/install.sh', './shared/.bin/install.sh']
+        install_script: ['WSL/.bin/install.sh', 'shared/.bin/install.sh']
     steps:
       - uses: actions/checkout@v3
       - name: Install required packages
@@ -47,7 +47,7 @@ jobs:
     container: archlinux/base:latest
     strategy:
       matrix:
-        install_script: ['./WSL/.bin/install.sh', './shared/.bin/install.sh']
+        install_script: ['WSL/.bin/install.sh', 'shared/.bin/install.sh']
     steps:
       - uses: actions/checkout@v3
       - name: Update packages
