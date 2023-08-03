@@ -7,3 +7,4 @@ pnpm 8.3.1
 rust 1.69.0
 golang 1.20.4
 kubectl 1.27.4
+helm 3.12.2
