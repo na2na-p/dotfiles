@@ -118,6 +118,7 @@ fi
 . "$HOME/.cargo/env"
 export DENO_INSTALL="/home/na2na/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
+export PATH="$PATH:$(go env GOPATH)/bin"
 
 . "$HOME/.asdf/asdf.sh"
 . "$HOME/.asdf/completions/asdf.bash"
