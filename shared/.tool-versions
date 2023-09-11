@@ -3,12 +3,12 @@ yarn 1.22.19
 nodejs 18.17.1
 jq 1.6
 deno 1.36.4
-pnpm 8.7.4
+pnpm 8.7.5
 rust 1.72.0
 golang 1.21.1
 kubectl 1.28.1
 helm 3.12.3
 dotnet-core 7.0.400
-awscli 2.13.16
+awscli 2.13.17
 minikube 1.31.2
 golang 1.21.1
