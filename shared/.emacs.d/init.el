@@ -110,3 +110,10 @@
  ;; If there is more than one, they won't work right.
  )
  (global-set-key (kbd "C-x g") 'magit-status)
+
+;; デフォルトのエンコーディングをUTF-8に設定
+(prefer-coding-system 'utf-8)
+;; (prefer-coding-system 'shift_jis)
+
+ ;; 自分で突っ込んだものを置く場所
+(add-to-list 'load-path "~/.emacs.d/lisp/")
