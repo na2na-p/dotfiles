@@ -1,10 +1,10 @@
 python 3.11.5
 yarn 1.22.19
-nodejs 18.17.1
+nodejs 18.18.0
 jq 1.6
-deno 1.36.4
+deno 1.37.0
 pnpm 8.7.6
-rust 1.72.0
+rust 1.72.1
 golang 1.21.1
 kubectl 1.28.2
 helm 3.12.3
