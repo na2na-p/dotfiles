@@ -10,6 +10,6 @@ golang 1.21.1
 kubectl 1.28.2
 helm 3.12.3
 dotnet-core 7.0.400
-awscli 2.13.19
+awscli 2.13.20
 minikube 1.31.2
 golang 1.21.1
