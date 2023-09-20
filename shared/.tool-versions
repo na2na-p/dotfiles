@@ -1,4 +1,5 @@
 python 3.11.5
+pipenv 2023.9.8
 yarn 1.22.19
 nodejs 18.18.0
 jq 1.6
