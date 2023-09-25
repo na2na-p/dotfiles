@@ -120,3 +120,4 @@ fi
 . "$HOME/.asdf/completions/asdf.bash"
 
 export PATH="$PATH:$HOME/.asdf/shims/go/bin"
+setxkbmap -model jp106 -layout jp -option ctrl:nocaps
