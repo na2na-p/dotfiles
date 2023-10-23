@@ -53,6 +53,7 @@ done
 link_to_homedir
 git config --global include.path "~/.gitconfig_shared"
 
+source ~/.bashrc
 "${SCRIPT_DIR}/asdf_install.sh" || exit 1
 
 command echo -e "\e[1;36m Install completed!!!! \e[m"
