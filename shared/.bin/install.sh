@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 set -ue
 
-# ./setup_asdf.shを実行する
-# 失敗したら終了
-./setup_asdf.sh || exit 1
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" &> /dev/null && pwd)"
+
+"${SCRIPT_DIR}/setup_asdf.sh" || exit 1
 
 helpmsg() {
   command echo "Usage: $0 [--help | -h]" 0>&2
