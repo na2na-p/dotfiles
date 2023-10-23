@@ -16,4 +16,4 @@ asdf plugin-add dotnet-core https://github.com/emersonsoares/asdf-dotnet-core.gi
 asdf plugin add awscli
 asdf plugin-add minikube https://github.com/alvarobp/asdf-minikube.git
 asdf plugin add flutter
-asdf plugin add okteto
+asdf plugin add okteto https://github.com/BradenM/asdf-okteto.git
