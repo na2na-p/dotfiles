@@ -14,3 +14,4 @@ awscli 2.13.28
 minikube 1.31.2
 golang 1.21.3
 flutter 3.13.8-stable
+okteto 2.21.0
