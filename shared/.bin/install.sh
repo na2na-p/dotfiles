@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 set -ue
 
+# ./setup_asdf.shを実行する
+# 失敗したら終了
+./setup_asdf.sh || exit 1
+
 helpmsg() {
   command echo "Usage: $0 [--help | -h]" 0>&2
   command echo ""
