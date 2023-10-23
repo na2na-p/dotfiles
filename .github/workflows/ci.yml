@@ -8,11 +8,11 @@ jobs:
     container: ubuntu:latest
     strategy:
       matrix:
-        install_script: ['WSL/.bin/install.sh', 'shared/.bin/install.sh']
+        install_script: ["WSL/.bin/install.sh", "shared/.bin/install.sh"]
     steps:
       - uses: actions/checkout@v4
       - name: Install required packages
-        run: apt-get update && apt-get install -y git sudo
+        run: apt-get update && apt-get install -y git sudo curl
       - name: Install dotfiles
         run: ${{ matrix.install_script }} install
 
@@ -21,11 +21,11 @@ jobs:
     container: alpine:latest
     strategy:
       matrix:
-        install_script: ['WSL/.bin/install.sh', 'shared/.bin/install.sh']
+        install_script: ["WSL/.bin/install.sh", "shared/.bin/install.sh"]
     steps:
       - uses: actions/checkout@v4
       - name: Install required packages
-        run: apk add git sudo bash
+        run: apk add git sudo bash curl
       - name: Install dotfiles
         run: ${{ matrix.install_script }} install
 
@@ -34,13 +34,13 @@ jobs:
     container: archlinux:base
     strategy:
       matrix:
-        install_script: ['WSL/.bin/install.sh', 'shared/.bin/install.sh']
+        install_script: ["WSL/.bin/install.sh", "shared/.bin/install.sh"]
     steps:
       - uses: actions/checkout@v4
       - name: Update packages
         run: pacman -Syu --noconfirm
       - name: Install required packages
-        run: pacman -S --noconfirm git sudo
+        run: pacman -S --noconfirm git sudo curl
       - name: Install dotfiles
         run: ${{ matrix.install_script }} install
 
