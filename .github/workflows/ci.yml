@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Install required packages
-        run: apt-get update && apt-get install -y git sudo curl
+        run: apt-get update && apt-get install -y git sudo curl unzip
       - name: Install dotfiles
         run: ${{ matrix.install_script }} install
 
@@ -40,7 +40,7 @@ jobs:
       - name: Update packages
         run: pacman -Syu --noconfirm
       - name: Install required packages
-        run: pacman -S --noconfirm git sudo curl
+        run: pacman -S --noconfirm git sudo curl unzip
       - name: Install dotfiles
         run: ${{ matrix.install_script }} install
 
