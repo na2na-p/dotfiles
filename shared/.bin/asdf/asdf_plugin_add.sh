@@ -17,3 +17,4 @@ asdf plugin add awscli
 asdf plugin-add minikube https://github.com/alvarobp/asdf-minikube.git
 asdf plugin add flutter
 asdf plugin add okteto https://github.com/BradenM/asdf-okteto.git
+asdf plugin-add kompose https://github.com/virtualstaticvoid/asdf-kompose.git
