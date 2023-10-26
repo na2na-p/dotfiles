@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 set -ue
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" &> /dev/null && pwd)"
+
+"${SCRIPT_DIR}/asdf/asdf_setup.sh" || exit 1
+
 helpmsg() {
   command echo "Usage: $0 [--help | -h]" 0>&2
   command echo ""
@@ -48,4 +52,9 @@ done
 
 link_to_homedir
 git config --global include.path "~/.gitconfig_shared"
+
+source ~/.bashrc
+"${SCRIPT_DIR}/asdf/asdf_plugin_add.sh" || exit 1
+"${SCRIPT_DIR}/asdf/asdf_install.sh" || exit 1
+
 command echo -e "\e[1;36m Install completed!!!! \e[m"
