@@ -4,13 +4,13 @@ yarn 1.22.19
 nodejs 20.9.0
 jq 1.6
 deno 1.37.2
-pnpm 8.10.0
+pnpm 8.10.2
 rust 1.73.0
 golang 1.21.3
 kubectl 1.28.3
 helm 3.13.1
 dotnet-core 7.0.400
-awscli 2.13.30
+awscli 2.13.31
 minikube 1.31.2
 golang 1.21.3
 flutter 3.13.9-stable
