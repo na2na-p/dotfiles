@@ -10,9 +10,9 @@ golang 1.21.4
 kubectl 1.28.4
 helm 3.13.2
 dotnet-core 8.0.100
-awscli 2.13.38
+awscli 2.14.0
 minikube 1.31.2
 golang 1.21.4
-flutter 3.16.0-stable
+flutter 3.16.1-stable
 okteto 2.21.0
 kompose 1.31.2
