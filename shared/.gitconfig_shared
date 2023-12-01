@@ -1,12 +1,19 @@
 [user]
 	name = na2na-p
 	email = na2na@na2na.dev
+[pull]
+	rebase = true
+[init]
+        defaultBranch = main
+[commit]
+        gpgsign = true
+[tag]
+        gpgsign = true
 [core]
-	editor = vim
+	editor = emacs
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
-[pull]
-	rebase = true
+
