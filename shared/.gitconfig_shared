@@ -10,7 +10,7 @@
 [tag]
         gpgsign = true
 [core]
-	editor = emacs
+	editor = emacsclient
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true

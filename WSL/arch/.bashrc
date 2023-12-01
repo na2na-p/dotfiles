@@ -24,3 +24,4 @@ fi
 . "$HOME/.asdf/asdf.sh"
 . "$HOME/.asdf/completions/asdf.bash"
 export NODE_OPTIONS=--max-old-space-size=6000 
+emacs --daemon

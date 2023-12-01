@@ -121,3 +121,4 @@ fi
 
 export PATH="$PATH:$HOME/.asdf/shims/go/bin"
 setxkbmap -model jp106 -layout jp -option ctrl:nocaps
+emacs --daemon
