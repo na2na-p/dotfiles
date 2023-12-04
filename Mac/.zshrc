@@ -20,3 +20,18 @@ autoload -Uz compinit && compinit
 
 complete -C '~/.asdf/shims/aws_completer' aws
 complete -C '~/.asdf/shims/aws_completer' awslocal
+
+## emacs
+server_running_p() {
+	emacsclient --eval '(server-running-p)' >/dev/null 2>&1
+}
+
+if server_running_p
+then
+    echo "emacs daemon already running."
+else
+    exec emacs -daemon
+fi
+
+alias E='emacsclient'
+alias killemacs="emacscliente'(killemacs)'"
