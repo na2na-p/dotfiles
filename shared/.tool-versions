@@ -17,3 +17,4 @@ golang 1.21.5
 flutter 3.16.3-stable
 okteto 2.21.0
 kompose 1.31.2
+ffmpeg 6.1
