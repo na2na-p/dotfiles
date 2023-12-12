@@ -16,4 +16,5 @@
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
-
+[alias]
+	vacuum = "!f(){ current_branch=$(git branch --show-current); branches_to_delete=$(git branch --merged $current_branch | grep -E -v '\\*|develop|main'); if [ -z \"$branches_to_delete\" ]; then echo 'No branches to delete.'; else echo \"$branches_to_delete\" | xargs git branch -d; fi; }; f"
