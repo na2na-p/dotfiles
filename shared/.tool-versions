@@ -4,7 +4,7 @@ yarn 1.22.19
 nodejs 20.10.0
 jq 1.6
 deno 1.38.5
-pnpm 8.12.0
+pnpm 8.12.1
 rust 1.74.1
 golang 1.21.5
 kubectl 1.28.4
