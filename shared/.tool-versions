@@ -11,10 +11,10 @@ kubectl 1.29.0
 helm 3.13.3
 dotnet-core 8.0.100
 terraform 1.6.6 
-awscli 2.15.2
+awscli 2.15.3
 minikube 1.31.2
 golang 1.21.5
-flutter 3.16.4-stable
+flutter 3.16.5-stable
 okteto 2.21.0
 kompose 1.31.2
 ffmpeg 6.1
