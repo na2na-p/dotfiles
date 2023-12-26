@@ -27,3 +27,4 @@ export NODE_OPTIONS=--max-old-space-size=6000
 export EDITOR="emacsclient -t"
 export VISUAL="emacsclient -c -a emacs"
 alias emacs='emacsclient -c -a ""'
+. ~/.asdf/plugins/java/set-java-home.bash
