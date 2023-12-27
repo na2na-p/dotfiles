@@ -4,7 +4,7 @@ yarn 1.22.19
 nodejs 20.10.0
 jq 1.6
 deno 1.39.1
-pnpm 8.12.1
+pnpm 8.13.1
 rust 1.74.1
 golang 1.21.5
 kubectl 1.29.0
@@ -18,4 +18,4 @@ flutter 3.16.5-stable
 okteto 2.21.0
 kompose 1.31.2
 ffmpeg 6.1
-java adoptopenjdk-jre-17.0.2+8
+java adoptopenjdk-jre-17.0.9+9
