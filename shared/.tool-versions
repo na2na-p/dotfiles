@@ -10,7 +10,7 @@ golang 1.21.6
 kubectl 1.29.1
 helm 3.14.0
 dotnet-core 8.0.100
-terraform 1.7.0 
+terraform 1.7.1 
 awscli 2.15.13
 terragrunt 0.54.22
 minikube 1.31.2
