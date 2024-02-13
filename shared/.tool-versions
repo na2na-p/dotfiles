@@ -11,7 +11,7 @@ kubectl 1.29.1
 helm 3.14.0
 dotnet-core 8.0.100
 terraform 1.7.3 
-awscli 2.15.18
+awscli 2.15.19
 terragrunt 0.55.1
 minikube 1.31.2
 golang 1.22.0
