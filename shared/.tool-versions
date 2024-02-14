@@ -20,3 +20,4 @@ okteto 2.21.0
 kompose 1.31.2
 ffmpeg 6.1
 java adoptopenjdk-jre-17.0.10+7
+trivy 0.48.3
