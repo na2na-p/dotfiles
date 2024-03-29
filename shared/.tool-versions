@@ -21,3 +21,5 @@ kompose 1.31.2
 ffmpeg 6.1
 java adoptopenjdk-jre-17.0.10+7
 trivy 0.50.0
+argocd 2.10.0
+oci 3.37.14
