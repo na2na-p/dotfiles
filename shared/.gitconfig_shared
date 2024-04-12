@@ -1,6 +1,3 @@
-[user]
-	name = na2na-p
-	email = na2na@na2na.dev
 [pull]
 	rebase = true
 [init]
