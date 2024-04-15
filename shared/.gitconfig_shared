@@ -1,11 +1,11 @@
 [pull]
 	rebase = true
 [init]
-        defaultBranch = main
+	defaultBranch = main
 [commit]
-        gpgsign = true
+	gpgsign = true
 [tag]
-        gpgsign = true
+	gpgsign = true
 [core]
 	editor = emacsclient
 [filter "lfs"]
