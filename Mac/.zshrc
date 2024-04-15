@@ -31,6 +31,5 @@ function estart() {
 
 alias E='emacsclient'
 alias killemacs="emacsclient -e '(kill-emacs)'"
-. ~/.asdf/plugins/java/set-java-home.zsh
 
 estart
