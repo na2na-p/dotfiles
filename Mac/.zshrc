@@ -21,6 +21,16 @@ autoload -Uz compinit && compinit
 complete -C '~/.asdf/shims/aws_completer' aws
 complete -C '~/.asdf/shims/aws_completer' awslocal
 
+function estart() {
+  if ! emacsclient -e 0 > /dev/null 2>&1; then
+    cd > /dev/null 2>&1
+    emacs --daemon
+    cd - > /dev/null 2>&1
+  fi
+}
+
 alias E='emacsclient'
 alias killemacs="emacsclient -e '(kill-emacs)'"
 . ~/.asdf/plugins/java/set-java-home.zsh
+
+estart
