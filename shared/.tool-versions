@@ -3,7 +3,7 @@ pipenv 2023.9.8
 nodejs 20.12.2
 jq 1.7.1
 deno 1.42.4
-pnpm 8.15.7
+pnpm 9.0.5
 rust 1.77.2
 golang 1.22.2
 kubectl 1.29.4
