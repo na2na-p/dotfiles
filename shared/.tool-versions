@@ -18,7 +18,7 @@ flutter 3.22.0-stable
 okteto 2.21.0
 kompose 1.31.2
 ffmpeg 6.1
-java adoptopenjdk-jre-17.0.11+9
+java adoptopenjdk-jre-21.0.3+9.0.LTS
 trivy 0.51.1
 argocd 2.11.0
 oci 3.37.14
