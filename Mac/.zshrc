@@ -33,3 +33,5 @@ alias E='emacsclient'
 alias killemacs="emacsclient -e '(kill-emacs)'"
 
 estart
+# require direnv
+eval "$(direnv hook bash)"
