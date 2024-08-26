@@ -1,3 +1,4 @@
+source ~/.zsh_profile
 JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
 PATH=/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:"/Users/na2na/Library/Application Support/JetBrains/Toolbox/scripts":/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin
 
@@ -20,6 +21,8 @@ autoload -Uz compinit && compinit
 
 complete -C '~/.asdf/shims/aws_completer' aws
 complete -C '~/.asdf/shims/aws_completer' awslocal
+source "$(brew --prefix)/share/google-cloud-sdk/path.zsh.inc"
+source "$(brew --prefix)/share/google-cloud-sdk/completion.zsh.inc"
 
 function estart() {
   if ! emacsclient -e 0 > /dev/null 2>&1; then
@@ -33,3 +36,11 @@ alias E='emacsclient'
 alias killemacs="emacsclient -e '(kill-emacs)'"
 
 estart
+export USE_GKE_GCLOUD_AUTH_PLUGIN=True
+
+
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
+alias kc='kubectx | peco | xargs kubectx'
+alias kn='kubens | peco | xargs kubens'
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+export PATH="/opt/homebrew/opt/mysql-client@8.3.0/bin:$PATH"

@@ -2,6 +2,7 @@ python 3.12.5
 pipenv 2023.9.8
 nodejs 20.17.0
 jq 1.7.1
+yq 4.44.3
 deno 1.46.1
 pnpm 9.8.0
 rust 1.80.1
@@ -16,6 +17,7 @@ gcloud 482.0.0
 terragrunt 0.66.9
 minikube 1.33.1
 golang 1.23.0
+air 1.52.3
 flutter 3.24.1-stable
 okteto 2.21.0
 kompose 1.31.2
