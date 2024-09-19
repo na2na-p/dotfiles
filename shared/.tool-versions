@@ -26,3 +26,4 @@ java adoptopenjdk-jre-17.0.12+7
 trivy 0.55.2
 argocd 2.12.3
 oci 3.37.14
+golangci-lint 1.61.0
