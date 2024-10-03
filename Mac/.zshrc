@@ -1,11 +1,8 @@
 source ~/.zsh_profile
-JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home
-PATH=/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:"/Users/na2na/Library/Application Support/JetBrains/Toolbox/scripts":/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin
+PATH=/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:"/Users/na2na/Library/Application Support/JetBrains/Toolbox/scripts"
 
 export PATH="/opt/homebrew/bin:$PATH"
 
-export JAVA_HOME=`/usr/libexec/java_home -v "11"`
-PATH=$JAVA_HOME/bin:$PATH
 . "$HOME/.asdf/asdf.sh"
 
 # pnpm
