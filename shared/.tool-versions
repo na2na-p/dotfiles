@@ -1,6 +1,6 @@
 python 3.12.7
 pipenv 2023.9.8
-nodejs 20.18.0
+nodejs 22.11.0
 jq 1.7.1
 yq 4.44.3
 deno 1.46.3
