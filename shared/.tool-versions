@@ -13,7 +13,6 @@ kustomize 5.5.0
 dotnet-core 8.0.404
 terraform 1.9.8 
 awscli 2.22.3
-gcloud 482.0.0
 terragrunt 0.69.0
 minikube 1.34.0
 golang 1.23.3
@@ -22,7 +21,6 @@ flutter 3.24.5-stable
 okteto 2.21.0
 kompose 1.31.2
 ffmpeg 6.1
-java adoptopenjdk-jre-17.0.13+11
 trivy 0.57.1
 argocd 2.13.1
 oci 3.37.14
