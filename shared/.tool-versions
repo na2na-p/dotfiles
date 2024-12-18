@@ -11,7 +11,7 @@ kubectl 1.32.0
 helm 3.16.3
 kustomize 5.5.0
 skaffold 2.13.2
-dotnet-core 8.0.404
+dotnet-core 9.0.101
 terraform 1.10.2 
 awscli 2.22.16
 terragrunt 0.69.12
