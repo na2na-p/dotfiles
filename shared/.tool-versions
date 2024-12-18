@@ -10,6 +10,7 @@ golang 1.23.4
 kubectl 1.32.0
 helm 3.16.3
 kustomize 5.5.0
+skaffold 2.13.2
 dotnet-core 8.0.404
 terraform 1.10.2 
 awscli 2.22.16
