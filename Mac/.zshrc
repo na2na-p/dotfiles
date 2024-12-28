@@ -79,4 +79,4 @@ done
 alias kc='kubectx | peco | xargs kubectx'
 alias kn='kubens | peco | xargs kubens'
 alias tw='terraform workspace list | peco | xargs terraform workspace select'
-
+alias ap='export AWS_PROFILE=$(aws configure list-profiles | peco | xargs)'
