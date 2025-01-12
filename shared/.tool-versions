@@ -2,10 +2,10 @@ python 3.13.1
 pipenv 2023.9.8
 nodejs 22.13.0
 jq 1.7.1
-yq 4.44.6
-deno 2.1.4
+yq 4.45.1
+deno 2.1.5
 pnpm 9.15.3
-rust 1.83.0
+rust 1.84.0
 golang 1.23.4
 kubectl 1.32.0
 helm 3.16.4
@@ -13,8 +13,8 @@ kustomize 5.5.0
 skaffold 2.13.2
 dotnet-core 8.0.404
 terraform 1.10.4 
-awscli 2.22.31
-terragrunt 0.71.2
+awscli 2.22.33
+terragrunt 0.72.0
 minikube 1.34.0
 golang 1.23.4
 air 1.52.3
