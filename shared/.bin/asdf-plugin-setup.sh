@@ -27,7 +27,6 @@ plugins=(
   "flutter"
   "okteto"
   "kompose"
-  "ffmpeg"
   "trivy"
   "argocd"
   "oci"
