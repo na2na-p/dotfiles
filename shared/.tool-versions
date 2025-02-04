@@ -4,7 +4,7 @@ nodejs 22.13.1
 jq 1.7.1
 yq 4.45.1
 deno 2.1.9
-pnpm 9.15.4
+pnpm 10.2.0
 rust 1.84.1
 golang 1.23.5
 kubectl 1.32.1
