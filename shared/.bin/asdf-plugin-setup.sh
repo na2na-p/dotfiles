@@ -31,6 +31,8 @@ plugins=(
   "argocd"
   "oci"
   "golangci-lint"
+	"cloudflared"
+	"hugo"
 )
 
 # Adding plugins
@@ -38,7 +40,7 @@ for plugin_info in "${plugins[@]}"; do
   plugin_name=$(echo "$plugin_info" | awk '{print $1}')
   plugin_url=$(echo "$plugin_info" | awk '{print $2}')
 
-  if asdf plugin-list | grep -q "^${plugin_name}$"; then
+  if asdf plugin list | grep -q "^${plugin_name}$"; then
     echo "[INFO] ${plugin_name} is already added."
   else
     echo "[INFO] Adding ${plugin_name}..."
