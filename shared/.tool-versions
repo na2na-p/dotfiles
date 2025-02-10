@@ -25,3 +25,5 @@ trivy 0.59.1
 argocd 2.14.2
 oci 3.51.6
 golangci-lint 1.63.4
+cloudflared 2025.1.0
+hugo 0.141.0
