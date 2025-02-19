@@ -1,3 +1,4 @@
+setopt PROMPT_SUBST
 if [ -f ~/.zsh_profile ]; then
   source ~/.zsh_profile
 fi
@@ -12,6 +13,56 @@ fi
 if [ -f $(brew --prefix)/etc/brew-wrap ];then
   source $(brew --prefix)/etc/brew-wrap
 fi
+
+##############
+# zsh
+##############
+is_k8s_directory() {
+  for file in *.yaml(N) *.yml(N); do
+    if [ -f "$file" ] && grep -q "apiVersion:" "$file"; then
+      return 0
+    fi
+  done
+  return 1
+}
+get_project_path() {
+  local project_root=""
+  local prefix=""
+  
+  # まず、プロジェクトルートのマーカー (.idea, .vscode, .golangci.yaml)
+  local dir="$PWD"
+  while [[ "$dir" != "/" ]]; do
+    if [[ -d "$dir/.idea" || -d "$dir/.vscode" || -f "$dir/.golangci.yaml" ]]; then
+      project_root="$dir"
+      prefix=$(basename "$dir")
+      break
+    fi
+    dir=$(dirname "$dir")
+  done
+
+  if [[ -z "$project_root" && $(git rev-parse --is-inside-work-tree 2>/dev/null) == "true" ]]; then
+    project_root=$(git rev-parse --show-toplevel)
+    prefix=$(basename "$project_root")
+  fi
+
+  if [[ -n "$project_root" ]]; then
+    local rel_path="${PWD#$project_root}"
+    rel_path="${rel_path#/}"
+    if [[ -n "$rel_path" ]]; then
+      echo "${prefix}/${rel_path}"
+    else
+      echo "${prefix}"
+    fi
+  else
+    print -P "%~"
+  fi
+}
+
+autoload -U colors && colors
+source "/opt/homebrew/opt/kube-ps1/share/kube-ps1.sh"
+
+PROMPT='$(is_k8s_directory && echo "%F{blue}$(kube_ps1)%f")
+%F{#00cf00}%n@%m%f %F{#00a0ff}$(get_project_path)%f%(!.#.$) '
 
 ##############
 # MySQL
