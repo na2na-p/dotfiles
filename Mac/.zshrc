@@ -68,7 +68,7 @@ estart
 ##############
 # asdf
 ##############
-. "$(brew --prefix)/opt/asdf/libexec/asdf.sh"
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 for version in $(ls ~/.asdf/installs/golang); do
     export PATH=$PATH:~/.asdf/installs/golang/$version/go/bin:$GOPATH/bin
 done
