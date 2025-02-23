@@ -69,9 +69,17 @@ precmd() {
       # そうでない場合は空文字にする
       KUBE_PS1_LINE=""
   fi
+
+	if git rev-parse --is-inside-work-tree &>/dev/null; then
+    local branch
+    branch=$(git symbolic-ref --short HEAD 2>/dev/null || git rev-parse --short HEAD 2>/dev/null)
+    GIT_PS1_LINE="%F{cyan}%F{yellow}branch:%f %F{magenta}${branch}%f"$'\n'
+  else
+    GIT_PS1_LINE=""
+  fi
 }
 
-PROMPT='${KUBE_PS1_LINE}%F{#00cf00}%n@%m%f %F{#00a0ff}$(get_project_path)%f%(!.#.$) '
+PROMPT='${KUBE_PS1_LINE}${GIT_PS1_LINE}%F{#00cf00}%n@%m%f %F{#00a0ff}$(get_project_path)%f%(!.#.$) '
 
 ##############
 # MySQL
