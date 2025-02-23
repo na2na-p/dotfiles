@@ -61,8 +61,17 @@ get_project_path() {
 autoload -U colors && colors
 source "/opt/homebrew/opt/kube-ps1/share/kube-ps1.sh"
 
-PROMPT='$(is_k8s_directory && echo "%F{blue}$(kube_ps1)%f")
-%F{#00cf00}%n@%m%f %F{#00a0ff}$(get_project_path)%f%(!.#.$) '
+precmd() {
+  if is_k8s_directory; then
+      # k8s ディレクトリの場合は kube_ps1 の出力と改行を設定
+      KUBE_PS1_LINE="%F{blue}$(kube_ps1)%f"$'\n'
+  else
+      # そうでない場合は空文字にする
+      KUBE_PS1_LINE=""
+  fi
+}
+
+PROMPT='${KUBE_PS1_LINE}%F{#00cf00}%n@%m%f %F{#00a0ff}$(get_project_path)%f%(!.#.$) '
 
 ##############
 # MySQL
