@@ -46,14 +46,14 @@ for plugin_info in "${plugins[@]}"; do
     echo "[INFO] Adding ${plugin_name}..."
     if [ -n "$plugin_url" ]; then
       # Add plugin with URL
-      if asdf plugin-add "$plugin_name" "$plugin_url"; then
+      if asdf plugin add "$plugin_name" "$plugin_url"; then
         echo "[SUCCESS] ${plugin_name} has been added from ${plugin_url}."
       else
         echo "[ERROR] Failed to add ${plugin_name} from ${plugin_url}."
       fi
     else
       # Add plugin without URL
-      if asdf plugin-add "$plugin_name"; then
+      if asdf plugin add "$plugin_name"; then
         echo "[SUCCESS] ${plugin_name} has been added."
       else
         echo "[ERROR] Failed to add ${plugin_name}."
