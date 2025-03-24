@@ -87,6 +87,11 @@ PROMPT='${KUBE_PS1_LINE}${GIT_PS1_LINE}%F{#00cf00}%n@%m%f %F{#00a0ff}$(get_proje
 export PATH="/opt/homebrew/opt/mysql-client@8.0/bin:$PATH"
 
 ##############
+# PostgreSQL
+##############
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+
+##############
 # Node.js
 ##############
 export PNPM_HOME="~/.pnpm-home"
@@ -148,3 +153,11 @@ alias kc='kubectx | peco | xargs kubectx'
 alias kn='kubens | peco | xargs kubens'
 alias tw='terraform workspace list | peco | xargs terraform workspace select'
 alias ap='export AWS_PROFILE=$(aws configure list-profiles | peco | xargs)'
+alias gc='gcloud config configurations list --format="value(name)" | peco | xargs gcloud config configurations activate'
+
+##############
+# functions
+##############
+function checkExternalIp() {
+	curl -s http://checkip.amazonaws.com/ | tr -d '\n'
+}
