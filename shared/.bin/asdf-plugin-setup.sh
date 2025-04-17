@@ -33,6 +33,7 @@ plugins=(
   "golangci-lint"
 	"cloudflared"
 	"hugo"
+	"uv https://github.com/asdf-community/asdf-uv.git"
 )
 
 # Adding plugins
