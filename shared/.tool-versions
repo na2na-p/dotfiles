@@ -27,4 +27,3 @@ oci 3.54.3
 golangci-lint 1.64.8
 cloudflared 2025.1.0
 hugo 0.146.6
-uv 0.6.14

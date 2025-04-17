@@ -153,7 +153,7 @@ alias kc='kubectx | peco | xargs kubectx'
 alias kn='kubens | peco | xargs kubens'
 alias tw='terraform workspace list | peco | xargs terraform workspace select'
 alias ap='export AWS_PROFILE=$(aws configure list-profiles | peco | xargs)'
-alias gc='gcloud config configurations list --format="value(name)" | peco | xargs gcloud config configurations activate'
+alias gc='gcloud config configurations list --format="value(name)" | peco | xargs -I {} sh -c "gcloud config configurations activate {} && gcloud auth application-default login --configuration={}"'
 
 ##############
 # functions
