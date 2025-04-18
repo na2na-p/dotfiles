@@ -3,7 +3,7 @@ pipenv 2023.9.8
 nodejs 22.14.0
 jq 1.7.1
 yq 4.45.1
-deno 2.2.10
+deno 2.2.11
 pnpm 10.8.1
 rust 1.86.0
 golang 1.24.2
@@ -13,15 +13,15 @@ kustomize 5.6.0
 skaffold 2.15.0
 dotnet-core 9.0.203
 terraform 1.11.4 
-awscli 2.26.4
-terragrunt 0.77.19
+awscli 2.26.5
+terragrunt 0.77.20
 minikube 1.35.0
 golang 1.24.2
 air 1.52.3
 flutter 3.29.3-stable
 okteto 2.21.0
 kompose 1.31.2
-trivy 0.61.0
+trivy 0.61.1
 argocd 2.14.10
 oci 3.54.3
 golangci-lint 1.64.8
