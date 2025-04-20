@@ -15,11 +15,9 @@ dotnet-core 9.0.203
 terraform 1.11.4 
 awscli 2.26.5
 terragrunt 0.77.20
-minikube 1.35.0
 golang 1.24.2
 air 1.52.3
 flutter 3.29.3-stable
-okteto 2.21.0
 kompose 1.31.2
 trivy 0.61.1
 argocd 2.14.10
