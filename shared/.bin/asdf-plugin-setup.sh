@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
 # List of asdf plugins with optional URLs
 plugins=(
@@ -22,10 +23,8 @@ plugins=(
   "tfcmt"
   "awscli"
   "terragrunt"
-  "minikube"
   "air"
   "flutter"
-  "okteto"
   "kompose"
   "trivy"
   "argocd"
