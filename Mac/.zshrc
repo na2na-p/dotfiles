@@ -156,6 +156,11 @@ alias ap='export AWS_PROFILE=$(aws configure list-profiles | peco | xargs)'
 alias gc='gcloud config configurations list --format="value(name)" | peco | xargs -I {} sh -c "gcloud config configurations activate {} && gcloud auth application-default login --configuration={}"'
 
 ##############
+aliases
+##############
+alias k='kubectl'
+
+##############
 # functions
 ##############
 function checkExternalIp() {
