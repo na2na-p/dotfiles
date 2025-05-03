@@ -3,6 +3,8 @@ if [ -f ~/.zsh_profile ]; then
   source ~/.zsh_profile
 fi
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
 
