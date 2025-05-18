@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   ubuntu:
-    runs-on: ubuntu-latest
+    runs-on: dotfiles
     container: ubuntu:latest
     strategy:
       matrix:
@@ -17,7 +17,7 @@ jobs:
         run: ${{ matrix.install_script }} install
 
   alpine:
-    runs-on: ubuntu-latest
+    runs-on: dotfiles
     container: alpine:latest
     strategy:
       matrix:
@@ -30,7 +30,7 @@ jobs:
         run: ${{ matrix.install_script }} install
 
   arch:
-    runs-on: ubuntu-latest
+    runs-on: dotfiles
     container: archlinux:base
     strategy:
       matrix:
@@ -45,7 +45,7 @@ jobs:
         run: ${{ matrix.install_script }} install
 
   lint:
-    runs-on: ubuntu-latest
+    runs-on: dotfiles
     container: ubuntu:latest
     steps:
       - uses: actions/checkout@v4
