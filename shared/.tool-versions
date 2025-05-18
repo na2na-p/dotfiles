@@ -3,7 +3,7 @@ pipenv 2023.9.8
 nodejs 22.15.1
 jq 1.7.1
 yq 4.45.4
-deno 2.3.2
+deno 2.3.3
 pnpm 10.11.0
 rust 1.87.0
 golang 1.24.3
@@ -13,7 +13,7 @@ kustomize 5.6.0
 skaffold 2.16.0
 dotnet-core 9.0.300
 terraform 1.12.0 
-awscli 2.27.16
+awscli 2.27.17
 terragrunt 0.78.4
 golang 1.24.3
 air 1.52.3
