@@ -14,7 +14,7 @@ skaffold 2.16.1
 dotnet-core 9.0.301
 terraform 1.12.2 
 awscli 2.27.49
-terragrunt 0.82.4
+terragrunt 0.83.0
 golang 1.24.4
 air 1.52.3
 flutter 3.32.5-stable
