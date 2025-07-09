@@ -4,14 +4,14 @@ nodejs 22.17.0
 jq 1.7.1
 yq 4.45.4
 deno 2.4.1
-pnpm 10.12.4
+pnpm 10.13.1
 rust 1.88.0
 golang 1.24.5
 kubectl 1.33.2
-helm 3.18.3
+helm 3.18.4
 kustomize 5.7.0
 skaffold 2.16.1
-dotnet-core 9.0.301
+dotnet-core 9.0.302
 terraform 1.12.2 
 awscli 2.27.49
 terragrunt 0.83.0
