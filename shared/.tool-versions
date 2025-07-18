@@ -13,7 +13,7 @@ kustomize 5.7.0
 skaffold 2.16.1
 dotnet-core 9.0.303
 terraform 1.12.2 
-awscli 2.27.54
+awscli 2.27.55
 terragrunt 0.83.2
 golang 1.24.5
 air 1.52.3
