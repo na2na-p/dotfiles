@@ -24,7 +24,6 @@ plugins=(
   "awscli"
   "terragrunt"
   "air"
-  "flutter"
   "kompose"
   "trivy"
   "argocd"
