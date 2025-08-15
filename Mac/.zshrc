@@ -161,6 +161,7 @@ alias gc='gcloud config configurations list --format="value(name)" | peco | xarg
 # aliases
 ##############
 alias k='kubectl'
+alias khi='docker run --pull always -p 127.0.0.1:8080:8080 gcr.io/kubernetes-history-inspector/release:latest -access-token=$(gcloud auth print-access-token)'
 
 ##############
 # functions
