@@ -10,7 +10,7 @@ jobs:
       matrix:
         install_script: ['WSL/.bin/install.sh', 'shared/.bin/install.sh']
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Install required packages
         run: apt-get update && apt-get install -y git sudo
       - name: Install dotfiles
@@ -23,7 +23,7 @@ jobs:
       matrix:
         install_script: ['WSL/.bin/install.sh', 'shared/.bin/install.sh']
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Install required packages
         run: apk add git sudo bash
       - name: Install dotfiles
@@ -36,7 +36,7 @@ jobs:
       matrix:
         install_script: ['WSL/.bin/install.sh', 'shared/.bin/install.sh']
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Update packages
         run: pacman -Syu --noconfirm
       - name: Install required packages
@@ -48,7 +48,7 @@ jobs:
     runs-on: dotfiles
     container: ubuntu:latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Update packages
         run: apt-get update
       - name: Install required packages
