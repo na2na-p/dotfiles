@@ -21,6 +21,6 @@ kompose 1.31.2
 trivy 0.67.2
 argocd 3.1.9
 oci 3.69.0
-golangci-lint 1.64.8
+golangci-lint 2.6.0
 cloudflared 2025.1.0
 hugo 0.152.2
