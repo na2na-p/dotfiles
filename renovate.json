@@ -4,9 +4,10 @@
 		"config:recommended",
 		"group:allNonMajor",
 		":timezone(Asia/Tokyo)",
-		":prHourlyLimitNone"
+		":prHourlyLimitNone",
+		"github>aquaproj/aqua-renovate-config#2.2.1"
 	],
 	"labels": ["renovate"],
 	"rangeStrategy": "bump",
-	"platformCommit": true
+	"platformCommit": "enabled"
 }

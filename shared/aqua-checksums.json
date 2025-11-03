@@ -1,0 +1,144 @@
+{
+  "checksums": [
+    {
+      "id": "github_release/github.com/air-verse/air/v1.52.3/air_1.52.3_linux_amd64.tar.gz",
+      "checksum": "B428750AA0E489520D92C841233B722ADAA26BFA9AAC57ECD6C7C4CB01F6B37D",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/air-verse/air/v1.63.0/air_1.63.0_linux_amd64.tar.gz",
+      "checksum": "80CE7B79A205B4E8A48CA25F84043924A41A76A32983DBB731EB696CCDEF3214",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/aquasecurity/tfsec/v1.28.14/tfsec_1.28.14_linux_amd64.tar.gz",
+      "checksum": "329AE7F67F2F1813EBE08DE498719EA7003C75D3CA24BB0B038369062508008E",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/aquasecurity/trivy/v0.67.2/trivy_0.67.2_Linux-64bit.tar.gz",
+      "checksum": "546511A5514AFC813C0B72E4ABEEA2C16A32228A13A1E5114D927C190E76B1F9",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/argoproj/argo-cd/v3.1.9/argocd-linux-amd64",
+      "checksum": "B0FF7F070956998E7C4847BA3FEBAFC5EB69F4D175071BB7D19BA872D13074BA",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/cloudflare/cloudflared/2025.1.0/cloudflared-linux-amd64",
+      "checksum": "8734F79DBDCB91E305FA48D837840C8C0D14F143ED390C516B86C2C292D9B368",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/cloudflare/cloudflared/2025.10.1/cloudflared-linux-amd64",
+      "checksum": "BF5382FA25766C532A23788491CCEF4E3AC9ED488318124E7F58EE0865277C4F",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/denoland/deno/v2.5.6/deno-x86_64-unknown-linux-gnu.zip",
+      "checksum": "FD4F6ABC1B6A134FA9A4DBA56519F1631F44C88E04E4E3E9A8FF5975DFA66E1A",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/gohugoio/hugo/v0.152.2/hugo_0.152.2_linux-amd64.tar.gz",
+      "checksum": "52B6EDA6C00F4449D96F0CBFD7300E834C26179C4FE68E0510EF566DB52DBA04",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/golangci/golangci-lint/v1.64.8/golangci-lint-1.64.8-linux-amd64.tar.gz",
+      "checksum": "B6270687AFB143D019F387C791CD2A6F1CB383BE9B3124D241CA11BD3CE2E54E",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/gruntwork-io/terragrunt/v0.93.0/terragrunt_linux_amd64",
+      "checksum": "B6E105794197548824570E6F12E9AB44DC08F0697E06F98AB16C2C951BA22689",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/jqlang/jq/jq-1.7.1/jq-linux-amd64",
+      "checksum": "5942C9B0934E510EE61EB3E30273F1B3FE2590DF93933A93D7C58B81D19C8FF5",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/jqlang/jq/jq-1.8.1/jq-linux-amd64",
+      "checksum": "020468DE7539CE70EF1BCEAF7CDE2E8C4F2CA6C3AFB84642AABC5C97D9FC2A0D",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/kubernetes-sigs/kustomize/kustomize/v5.7.1/kustomize_v5.7.1_linux_amd64.tar.gz",
+      "checksum": "EA375E7372F9AA029129D4B2D16C66B7750B7F1213C4F66F910D981C895818D8",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/kubernetes/kompose/v1.31.2/kompose-linux-amd64",
+      "checksum": "761699339D32B13CDDD57D9F9E2966B6397EE19E722C20BFBF45C8EEEFFE0AE5",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/mikefarah/yq/v4.48.1/yq_linux_amd64",
+      "checksum": "99DF6047F5B577A9D25F969F7C3823ADA3488DE2E2115B30A0ABB10D9324FD9F",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/pnpm/pnpm/v10.20.0/pnpm-linux-x64",
+      "checksum": "D25DEFAC8655080ADD042DECFA94B5C3B28CAFBB048EDD4DE6DC2C41F9220418",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/tfcmt/v4.14.12/tfcmt_linux_amd64.tar.gz",
+      "checksum": "08E0AC75A743FDE6948D8482F992C90B8BEE5E99FE1B5E4DE11CCEA428E66A86",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/terraform-linters/tflint/v0.59.1/tflint_linux_amd64.zip",
+      "checksum": "6108D84282292F11D793DC8038CE08FBC629DCD25324D6F13C63D8100B52E01F",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/awscli.amazonaws.com/awscli-exe-linux-x86_64-2.31.27.zip",
+      "checksum": "B947648B49E5CF53EE4B71B88D61BC6AF6BFDDBF3C372D668EFA24380E9FD101",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/dl.k8s.io/v1.34.1/bin/linux/amd64/kubectl",
+      "checksum": "7721F265E18709862655AFFBA5343E85E1980639395D5754473DAFAADCAA69E3",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/get.helm.sh/helm-v3.19.0-linux-amd64.tar.gz",
+      "checksum": "A7F81CE08007091B86D8BD696EB4D86B8D0F2E1B9F6C714BE62F82F96A594496",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/golang.org/dl/go1.25.3.linux-amd64.tar.gz",
+      "checksum": "0335F314B6E7BFE08C3D0CFAA7C19DB961B7B99FB20BE62B0A826C992AD14E0F",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/nodejs.org/dist/v24.11.0/node-v24.11.0-linux-x64.tar.gz",
+      "checksum": "B3C071CDF47AAB867C3B2AA287257DF12EC5D7C962BF922B32FD33226C4295FD",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/nodejs.org/dist/v25.1.0/node-v25.1.0-linux-x64.tar.gz",
+      "checksum": "0B8DE924CD43546A2098C091B73002442CD61340622B2C1489DF408755DE21FC",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/releases.hashicorp.com/terraform/1.13.4/terraform_1.13.4_linux_amd64.zip",
+      "checksum": "98AA516201E948306698EFD9954AB4CC0D1227C2578BA56245898B5F679E590B",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/storage.googleapis.com/skaffold/releases/v2.16.1/skaffold-linux-amd64",
+      "checksum": "1CBEEA85AA14BA603DBC2BBDFA7BFDE5644D7988BEED0FDC0FD1C67298D4CF67",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.432.0/registry.yaml",
+      "checksum": "96CBA2F96234E92A8BEA7A9F4E8D111F725D0AA0C7EDE342CDFAB9119C4176593BB2AB922B3D3FF3A539386BE19D2FA704323C13A11E098BB2B82C270AF60874",
+      "algorithm": "sha512"
+    }
+  ]
+}
