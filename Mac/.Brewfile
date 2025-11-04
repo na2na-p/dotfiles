@@ -8,6 +8,7 @@ tap "xcodesorg/made"
 
 brew "aria2"
 brew "asdf"
+brew "aqua"
 brew "argoproj/tap/kubectl-argo-rollouts"
 brew "azure-cli"
 brew "coreutils"
