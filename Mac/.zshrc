@@ -109,6 +109,11 @@ case ":$PATH:" in
 esac
 
 ##############
+# misc (ex. Claude Code)
+##############
+export PATH="$HOME/.local/bin:$PATH"
+
+##############
 # 1Password
 ##############
 eval "$(op completion zsh)"; compdef _op op
@@ -147,6 +152,11 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 for version in $(ls ~/.asdf/installs/golang); do
     export PATH=$PATH:~/.asdf/installs/golang/$version/go/bin:$GOPATH/bin
 done
+
+##############
+# aqua
+##############
+export PATH=${AQUA_ROOT_DIR:-${XDG_DATA_HOME:-$HOME/.local/share}/aquaproj-aqua}/bin:$PATH
 
 ##############
 # peco
