@@ -141,6 +141,11 @@
       "algorithm": "sha256"
     },
     {
+      "id": "github_release/github.com/mvdan/gofumpt/v0.9.2/gofumpt_v0.9.2_darwin_arm64",
+      "checksum": "C241FB742599A6CB0563D7377F59DEF65D451B23DD718DBC6DDF4AB5E695E8F1",
+      "algorithm": "sha256"
+    },
+    {
       "id": "github_release/github.com/pnpm/pnpm/v10.20.0/pnpm-linux-x64",
       "checksum": "D25DEFAC8655080ADD042DECFA94B5C3B28CAFBB048EDD4DE6DC2C41F9220418",
       "algorithm": "sha256"
