@@ -1,5 +1,5 @@
 python 3.14.0
 pipenv 2023.9.8
 rust 1.91.0
-dotnet-core 9.0.306
+dotnet-core 10.0.100
 oci 3.69.0
