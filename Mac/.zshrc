@@ -149,14 +149,13 @@ estart
 # asdf
 ##############
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
-for version in $(ls ~/.asdf/installs/golang); do
-    export PATH=$PATH:~/.asdf/installs/golang/$version/go/bin:$GOPATH/bin
-done
 
 ##############
 # aqua
 ##############
 export PATH=${AQUA_ROOT_DIR:-${XDG_DATA_HOME:-$HOME/.local/share}/aquaproj-aqua}/bin:$PATH
+export NPM_CONFIG_PREFIX="${XDG_DATA_HOME:-$HOME/.local/share}/npm-global" # You can change the path freely
+export PATH=$NPM_CONFIG_PREFIX/bin:$PATH
 
 ##############
 # peco
@@ -179,3 +178,5 @@ alias khi='docker run --pull always -p 127.0.0.1:8080:8080 gcr.io/kubernetes-his
 function checkExternalIp() {
 	curl -s http://checkip.amazonaws.com/ | tr -d '\n'
 }
+
+alias claude="/Users/yamamoto-akiyoshi/.claude/local/claude"
