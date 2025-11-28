@@ -17,6 +17,7 @@ packages:
 
   #--- Node.js tools ---
   - name: pnpm/pnpm@v10.23.0
+  - name: yarnpkg/yarn@v1.22.22
 
   #--- Go tools ---
   - name: cosmtrek/air@v1.63.1
@@ -30,6 +31,7 @@ packages:
   - name: GoogleContainerTools/skaffold@v2.17.0
   - name: aquasecurity/trivy@v0.67.2
   - name: argoproj/argo-cd@v3.2.0
+  - name: derailed/k9s@v0.50.16
 
   #--- IaC (Infrastructure as Code) ---
   - name: hashicorp/terraform@v1.14.0
