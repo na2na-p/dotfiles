@@ -149,9 +149,6 @@ estart
 # asdf
 ##############
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
-for version in $(ls ~/.asdf/installs/golang); do
-    export PATH=$PATH:~/.asdf/installs/golang/$version/go/bin:$GOPATH/bin
-done
 
 ##############
 # aqua
@@ -166,6 +163,7 @@ alias kn='kubens | peco | xargs kubens'
 alias tw='terraform workspace list | peco | xargs terraform workspace select'
 alias ap='export AWS_PROFILE=$(aws configure list-profiles | peco | xargs)'
 alias gc='gcloud config configurations list --format="value(name)" | peco | xargs -I {} sh -c "gcloud config configurations activate {} && gcloud auth application-default login --configuration={}"'
+alias ccusage='pnpm dlx ccusage@latest'
 
 ##############
 # aliases

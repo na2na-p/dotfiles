@@ -81,6 +81,11 @@
       "algorithm": "sha256"
     },
     {
+      "id": "github_release/github.com/golang-migrate/migrate/v4.19.0/migrate.darwin-arm64.tar.gz",
+      "checksum": "F21CDD83CB95BCC009C4B0FBBBD17C04FCF372FAE897D17153F9084BB76F0202",
+      "algorithm": "sha256"
+    },
+    {
       "id": "github_release/github.com/golangci/golangci-lint/v1.64.8/golangci-lint-1.64.8-darwin-arm64.tar.gz",
       "checksum": "70543D21E5B02A94079BE8AA11267A5B060865583E337FE768D39B5D3E2FAF1F",
       "algorithm": "sha256"
@@ -98,6 +103,11 @@
     {
       "id": "github_release/github.com/gruntwork-io/terragrunt/v0.93.0/terragrunt_linux_amd64",
       "checksum": "B6E105794197548824570E6F12E9AB44DC08F0697E06F98AB16C2C951BA22689",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/istio/istio/1.28.0/istioctl-1.28.0-osx-arm64.tar.gz",
+      "checksum": "178A82F22478A1840E50CEE6EFDDCCC0E8A483B55E7F8C638F9B937FB7D98537",
       "algorithm": "sha256"
     },
     {
@@ -226,6 +236,11 @@
       "algorithm": "sha256"
     },
     {
+      "id": "http/nodejs.org/dist/v24.11.1/node-v24.11.1-darwin-arm64.tar.gz",
+      "checksum": "B05AA3A66EFE680023F930BD5AF3FDBBD542794DA5644CA2AD711D68CBD4DC35",
+      "algorithm": "sha256"
+    },
+    {
       "id": "http/nodejs.org/dist/v25.1.0/node-v25.1.0-linux-x64.tar.gz",
       "checksum": "0B8DE924CD43546A2098C091B73002442CD61340622B2C1489DF408755DE21FC",
       "algorithm": "sha256"
@@ -253,6 +268,11 @@
     {
       "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.432.0/registry.yaml",
       "checksum": "96CBA2F96234E92A8BEA7A9F4E8D111F725D0AA0C7EDE342CDFAB9119C4176593BB2AB922B3D3FF3A539386BE19D2FA704323C13A11E098BB2B82C270AF60874",
+      "algorithm": "sha512"
+    },
+    {
+      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.444.0/registry.yaml",
+      "checksum": "529A890C667CFC10A3F567D92D381DF66219ADD4BA587BE3EFFBA12D390A1B43AC8051BEBFCC6DCC0E7F84DC40A72F8897764E186F49C3D72B2059E9EE1B1A24",
       "algorithm": "sha512"
     }
   ]
