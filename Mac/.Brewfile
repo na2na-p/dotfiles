@@ -30,7 +30,7 @@ brew "openssl@3"
 brew "peco"
 brew "pinentry-mac"
 brew "p7zip"
-brew "railwaycat/emacsmacport/emacs-mac", args: ["with-modern-icon"]
+brew "railwaycat/emacsmacport/emacs-mac", args: ["with-modern-icon", "with-imagemagic", "without-tree-sitter"]
 brew "rcmdnk/file/brew-file"
 brew "readline"
 brew "redis-cli"
