@@ -27,7 +27,7 @@ packages:
 
   #--- Kubernetes / Cloud Native ---
   - name: kubernetes/kubectl@v1.35.0
-  - name: helm/helm@v3.19.4
+  - name: helm/helm@v4.0.4
   - name: kubernetes-sigs/kustomize@kustomize/v5.8.0
   - name: GoogleContainerTools/skaffold@v2.17.0
   - name: aquasecurity/trivy@v0.68.2
