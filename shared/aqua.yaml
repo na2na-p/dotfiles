@@ -8,7 +8,7 @@ checksum:
 #   - all
 registries:
   - type: standard
-    ref: v4.448.0 # renovate: depName=aquaproj/aqua-registry
+    ref: v4.448.1 # renovate: depName=aquaproj/aqua-registry
 packages:
   #--- Programming Languages ---
   - name: golang/go@go1.25.5
@@ -44,9 +44,9 @@ packages:
   #--- CLI utilities ---
   - name: stedolan/jq@jq-1.8.1
   - name: mikefarah/yq@v4.50.1
-  - name: aws/aws-cli@2.32.23
+  - name: aws/aws-cli@2.32.24
   # - name: oracle/oci-cli@v3.71.4
 
   #--- Others ---
   - name: cloudflare/cloudflared@2025.11.1
-  - name: gohugoio/hugo@v0.153.2
+  - name: gohugoio/hugo@v0.153.3
